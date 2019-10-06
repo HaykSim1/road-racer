@@ -1,0 +1,53 @@
+/**
+ * common/index.css
+ *
+ * What it Does:
+ *   This is your global CSS file, this file will style every page and
+ *   component in your application.
+ *
+ * Things to Change:
+ *   If you want any CSS properties to persist through all of your app
+ *   or if any element you import has to be styled globally, this is the
+ *   file to use.
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f8fa;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
+  body, textarea, input {
+    color: rgb(20, 23, 26);
+  }
+  #app {
+    min-height: 100%;
+    min-width: 100%;
+  }
+  p,
+  label {
+    line-height: 1.2em;
+  }
+  code {
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+    &:active {
+      text-decoration: none;
+    }
+  }
+  textarea {
+    resize: none;
+  }
+  * {
+    backface-visibility: hidden;
+  }

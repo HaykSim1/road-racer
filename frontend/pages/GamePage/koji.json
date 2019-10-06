@@ -1,0 +1,7 @@
+{
+	"pages": [{
+		"name": "Game",
+        "route": "/game",
+        "path": "frontend/pages/GamePage"
+	}]
+}
